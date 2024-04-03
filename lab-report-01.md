@@ -1,4 +1,4 @@
-# Remote Access and FileSystem (week 1)
+# Lab Report 1: Remote Access and FileSystem (week 1)
 ---
 ## FileSystem Commands examples:
 1. ```cd```
