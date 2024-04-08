@@ -24,7 +24,7 @@
       - ls with path to file as arg;
 ---
 5. ```cat```
-   - Result of ```cat ```: ![Image](Screenshot 2024-04-03 155839.png)
+   - Result of ```cat ```: ![Image](Screenshot 2024-04-08 120750.png)
       - cat with no arg;
    - Result of ```cat cse15l-lab-reports```: ![Image](Screenshot 2024-04-08 120750.png)
       - cat with with path to directory/folder as arg;
