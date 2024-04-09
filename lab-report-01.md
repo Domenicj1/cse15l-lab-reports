@@ -14,6 +14,7 @@
       - cd with path to file as arg
       - Absolute path to working directory: ```/Users/jerni/cse15l-lab-reports```;
       - Executing the ```cd``` command with an existing subfile path as its argument from the working directory threw an error (ItemNotFoundException) as I attempted to "change directory" into a file of the working directory
+
 ---
 3. ```ls```
    - Result of ```ls ```: ![Image](Screenshot 2024-04-08 120243.png)
@@ -28,6 +29,7 @@
       - ls with path to file as arg;
       - Absolute path to working directory: ```/Users/jerni```
       - Executing the ```ls``` command with the relative path to a file casued another error and blew up in the terminal (ItemNotFoundException), i'm assuming this is because there are no other files/directories to list out contained within the passsed file.
+
 ---
 5. ```cat```
    - Result of ```cat ```: ![Image](Screenshot 2024-04-08 120750.png)
