@@ -17,16 +17,22 @@
 ---
 3. ```ls```
    - Result of ```ls ```: ![Image](Screenshot 2024-04-08 120243.png)
-      - ls with no arg'
+      - ls with no arg;
+      - Absolute path to working directory: ```/Users/jerni```;
+      - Executing the ```ls``` command without any arguments served to output or print a list of all the folder and files in the current working directory
    - Result of ```ls cse15l-lab-reports```: ![Image](Screenshot 2024-04-08 120318.png)
       - ls with with path to directory/folder as arg;
+      - Absolute path to working directory: ```/User/jerni```
+      - Executing the ```ls``` command and passing a folder/directory to its parameters serves to output or print a list of all the folders and files contained withing this passed folder/directory;
    - Result of ```ls secondexample.md```: ![Image](Screenshot 2024-04-08 120410.png)
       - ls with path to file as arg;
+      - Absolute path to working directory: ```/Users/jerni```
+      - Executing the ```ls``` command with the relative path to a file casued another error and blew up in the terminal (ItemNotFoundException), i'm assuming this is because there are no other files/directories to list out contained within the passsed file.
 ---
 5. ```cat```
    - Result of ```cat ```: ![Image](Screenshot 2024-04-08 120750.png)
       - cat with no arg;
-   - Result of ```cat cse15l-lab-reports```: ![Image](Screenshot 2024-04-08 120750.png)
+   - Result of ```cat cse15l-lab-reports```: ![Image](Screenshot 2024-04-08 120930.png)
       - cat with with path to directory/folder as arg;
-   - Result of ```cat lab-report-01.md```: ![Image](Screenshot 2024-04-08 120930.png)
+   - Result of ```cat lab-report-01.md```: ![Image](Screenshot 2024-04-08 121128.png)
       - cat with path to file as arg;
