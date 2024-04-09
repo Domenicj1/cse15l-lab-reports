@@ -34,7 +34,13 @@
 5. ```cat```
    - Result of ```cat ```: ![Image](Screenshot 2024-04-08 120750.png)
       - cat with no arg;
+      - Absolute path to working directory: ```/Users/jerni```;
+      - Executing the ```cat``` command without any arguments threw an exception in the terminal and did not work becasue the command is intended to print out the contents of the filename from the path that is passed through its parameters;
    - Result of ```cat cse15l-lab-reports```: ![Image](Screenshot 2024-04-08 120930.png)
       - cat with with path to directory/folder as arg;
+      - Absolute path to working directory: ```/Users/jerni```;
+      - Executing the ```cat``` command with a folder/directory passed as an argument to its parameters also threw an exception because it's meant to print out the contents of a file rather than printing filenames and potential subfolder names withing a directory;
    - Result of ```cat lab-report-01.md```: ![Image](Screenshot 2024-04-08 121128.png)
       - cat with path to file as arg;
+      - Absolute path to woeking directory: ```/User/jerni/cse15l-lab-reports```;
+      - Executing the ```cat``` command, with a proper existing subfile within the working directory passed to its parameters, worked as intended and in this particular case and printed out the contents of the argued Markdown text file in the terminal;
