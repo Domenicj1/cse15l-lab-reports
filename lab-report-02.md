@@ -38,8 +38,11 @@ class ChatServer{
 ---
 ## Part 2:
 1)!['ls' through SSH(my machine)](http://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/c5d6079a-eef9-4df0-bb54-e9e272375109)
+
 2)!['ls' through SSH(ieng6 machine](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/1e1ab46a-0a32-4305-a4df-306f1b2d0f44)
+
 3)!['ssh' without password](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/3fbd2bc4-1e4d-44b3-b738-7881e8b21876)
+
 ---
 ## Part 3:
 I learned that files and data can be shared and or transfered from one machine to another. Through the usage of the 'ssh' commands in a terminal I was able to manipulate the filesystem of a remote server and transfer files.
