@@ -35,3 +35,7 @@ class ChatServer{
   }
 }
 ```
+## Part 2:
+  1)!['ls' through SSH](http://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/c5d6079a-eef9-4df0-bb54-e9e272375109)
+  2)
+  3)
