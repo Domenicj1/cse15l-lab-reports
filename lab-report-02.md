@@ -41,7 +41,7 @@ class ChatServer{
 
 2)!['ls' through SSH(ieng6 machine](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/1e1ab46a-0a32-4305-a4df-306f1b2d0f44)
 
-3)!['ssh' without password](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/3fbd2bc4-1e4d-44b3-b738-7881e8b21876)
+3)!['ssh' without password](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/d7cd9c4c-7841-4603-a74b-40f520249f42)
 
 ---
 ## Part 3:
