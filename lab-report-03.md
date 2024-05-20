@@ -1,5 +1,7 @@
 # Lab Report 3: Bugs and Commands (week 6)
+
 ---
+
 ## Part 1: Bugs
 1. Failure inducing input for the Array reverseInPlace method
 ```
@@ -65,6 +67,7 @@ of the array without preserving their original values, resulting in an incorrect
 of the array are correctly reversed.
 
 ---
+
 ## Part 2: Researching Commands
 
 The `grep` command (stands for Global Regular Expression Print) in Unix/Linux is a helpful tool for searching through files and directories for specific patterns;
