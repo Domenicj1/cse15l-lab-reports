@@ -66,6 +66,7 @@ of the array are correctly reversed.
 
 ---
 ## Part 2: Researching Commands
+
 The `grep` command (stands for Global Regular Expression Print) in Unix/Linux is a helpful tool for searching through files and directories for specific patterns;
 used to search, match, then print the lines in a given file which appeal to the given text pattern. Here are four interseting and easy-to-use flags to enhace 
 the usage of the `grep` command-line program:
