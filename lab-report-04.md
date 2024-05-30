@@ -33,6 +33,6 @@
 ---
 
 6. Step 9 - Add, Commit, then Push the changes to my version of the forked repository GitHub account
-   - Result of ```git add .``` then ```git commit -m "step 6"``` then ```git push``` ![Image]("https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/19953d3d-b6c4-4b25-a8b7-0a2e149b6233)
+   - Result of ```git add .``` then ```git commit -m "step 6"``` then ```git push``` ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/19953d3d-b6c4-4b25-a8b7-0a2e149b6233)
    - Keystroke sequence: ```git<space>add<space>.``` then ```git<space>commit<space>-m<space>"step<space>6"``` then ```git<space>push```
    - Summary: First, I had to `add` the changes to the staging area, then to actually `commit` them to the repository I used the neccessary `git commit` command with a succinct commit message usuing the `-m` option to avoid having to write out a commit message from a prompted editor. Lastly, I `push`ed these changes to GitHub so they can actually be visible there.
