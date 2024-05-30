@@ -24,20 +24,20 @@
 ---
 
 4. Step 7 - Editing the code in terminal with Vim to fix the bug
-   - Result of ```vim ListExamples.java; <:44> --> <:s/1/2> --> <:wq> : ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/af748f68-6828-41a4-8275-dd841623bdd7)
+   - Result of ```vim ListExamples.java; <:44> --> <:s/1/2> --> <:wq>: ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/af748f68-6828-41a4-8275-dd841623bdd7)
    - Keystroke sequence: ```vim<space>ListExamples.java``` then ```<:44><enter><:s/1/2><enter><:wq><enter>```
    - Summary: I ran the `vim` command with the name of the java file `ListExamples.java` to edit the file fixing the bug which the error feedback highlighted now that my terminal was under the appropriate directory. Then, I navigated to the 44th line with `<:44>` to quickly fix the indicated bug, used ```<:s/1/2>``` to substitute the first occurence of the number `1` to the number `2`, then used `<:wq>` to safley write the changes to the file, save them, and exit.
 
 ---
   
 5. Step 8 - Running the tests again, verifying succesful debugging and Vim usage
-   - Result of ```bash test.sh``` ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/c14882ef-56f6-4b0d-87b1-1f44cd5586c5)
+   - Result of ```bash test.sh```: ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/c14882ef-56f6-4b0d-87b1-1f44cd5586c5)
    - Keystroke sequence: ```bash<space>test.sh<enter>```
    - Summary: I ran the `bash` script again to re-run the JUnit tests, ensuring my alterations to the buggy methods through Vim actually worked.
 
 ---
 
 6. Step 9 - Add, Commit, then Push the changes to my version of the forked repository GitHub account
-   - Result of ```git add .``` then ```git commit -m "step 6"``` then ```git push``` ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/19953d3d-b6c4-4b25-a8b7-0a2e149b6233)
+   - Result of ```git add .``` then ```git commit -m "step 6"``` then ```git push```: ![Image](https://github.com/Domenicj1/cse15l-lab-reports/assets/146692334/19953d3d-b6c4-4b25-a8b7-0a2e149b6233)
    - Keystroke sequence: ```git<space>add<space>.``` then ```git<space>commit<space>-m<space>"step<space>6"``` then ```git<space>push```
    - Summary: First, I had to `add` the changes to the staging area, then to actually `commit` them to the repository I used the neccessary `git commit` command with a succinct commit message usuing the `-m` option to avoid having to write out a commit message from a prompted editor. Lastly, I `push`ed these changes to GitHub so they can actually be visible there.
