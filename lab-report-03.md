@@ -4,6 +4,7 @@
 
 ## Part 1: Bugs
 1. Failure inducing input for the Array reverseInPlace method
+
 ```
 #Code
 static void reverseInPlace(int[] arr) {
@@ -77,6 +78,7 @@ the usage of the `grep` command-line program:
 1. `-i` (ignore case)
 Description: This option makes the search or the text pattern case-insensative, which can be useful when you desrire to match text of the same content regarless of difference in case.
 - Examples:
+
   ```
   #Code
   Domenics-Laptop:technical domenicj$ grep -i "whistleblowers" plos/pmed.0020281.txt
@@ -90,6 +92,7 @@ Description: This option makes the search or the text pattern case-insensative, 
 2. `-r` or `-R` (recursive search)
 Description: This flag searches for the pattern recursively through directories. The -r and -R flags are often used interchangeably, though there can be slight differences in behavior in some implementations.
 - Examples:
+
   ```
   #Code
   Domenics-Laptop:technical domenicj$ grep -r "prevented" ./government
@@ -120,11 +123,13 @@ Description: This flag searches for the pattern recursively through directories.
   ./government/Media/Program_Lodges.txt:Seventeen evictions were delayed, giving families additional
   ./government/Media/Legal_services_for_poor.txt:areas such as family law, consumer fraud, housing evictions and
   ```
+
   - For the above given examples of the `grep` command being used with the `-r` and `-R` option the relative paths show us the the terminal is recursivley starting from the argued `./government` subdirectory and going into all the underlying subdirectories to match all lines matching the argued strings.
 
 3. `-l` (files with matches)
 Description: This flag outputs only the names of files that contain the matching pattern. It is useful when you are interested in finding out which files contain the pattern rather than the exact lines.
 - Examples:
+
 ```
 #Code
 Domenics-Laptop:technical domenicj$ grep -l "physical therapy" ./biomed/*.txt
@@ -148,11 +153,13 @@ Domenics-Laptop:technical domenicj$ grep -l "biomedical" ./biomed/*.txt
 ./biomed/gb-2003-4-4-r28.txt
 ./biomed/gb-2003-4-7-r46.txt
 ```
+
   - For the above given examples of the `grep` command being used with the `-l` option the relative paths to the text files containing the argued strings are printed to standard output rather than the actual lines with the strings themselves.
 
 4. `-n` (line number)
 Description: This flag prefixes each matching line with its line number in the file. It helps in identifying the exact location of the match.
 - Examples:
+
 ```
 #Code
 Domenics-Laptop:technical domenicj$ grep -n "the commander" ./911report/*.txt
@@ -173,4 +180,5 @@ Domenics-Laptop:technical domenicj$ grep -n "the helicopter" ./911report/*.txt
 ./911report/chapter-3.txt:1105:                three of the helicopters, and the commander ordered the mission aborted. But
 ./911report/chapter-9.txt:1130:                roof of either tower. At about 9:30, one of the helicopters present advised that a
 ```
+
   - For the above given examples of the `grep` command being used with the `-n` option, the terminal is printing to standar output lines which contain teh argued string in addition to telling us what specific line number each one is in for their relative files. 
