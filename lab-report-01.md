@@ -5,7 +5,7 @@
    - Result of ```cd ```: ![Image](Screenshot 2024-04-08 114602.png)
       - cd with no arg;
       - Absolute path to working directory: ```/Users/jerni```;
-      - Executing the ```cd``` command without an argument did nothing as it doesn't know what  folder/directory/file path to enter into;
+      - Executing the ```cd``` command without an argument did nothing as it doesn't know what  folder/directory path to enter into;
    - Result of ```cd cse15l-lab-reports```: ![Image](Screenshot 2024-04-08 114758.png)
       - cd with with path to directory/folder as arg
       - Absolute path to working directory: ```/Users/jerni```;
